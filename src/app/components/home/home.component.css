@@ -1,0 +1,33 @@
+.content-wrapper{
+  margin: 80px 24px;
+}
+
+mat-grid-tile {
+  box-shadow: 0 0 24px 1px #14141460;
+  transition: webkit-filter 0.35s linear;
+  transition: filter 0.35s linear;
+  transition: filter 0.35s linear, -webkit-filter 0.35s linear;
+  transition: transform 0.35s;
+  cursor: pointer;
+}
+
+mat-grid-tile:hover {
+  transform: scale(1.1);
+}
+
+mat-grid-tile:not(:hover) {
+  -webkit-filter: blur(6px);
+  filter: blur(4px);
+}
+
+.save-the-universe {
+  background-image: url("https://wallpapercave.com/wp/wp2407334.jpg");
+}
+
+.destroy-the-universe {
+  background-image: url("https://wallpapercave.com/wp/wp9646474.jpg");
+}
+
+.create-your-story {
+  background-image: url("https://wallpapercave.com/uwp/uwp1915193.jpeg");
+}
