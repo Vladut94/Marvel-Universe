@@ -11,6 +11,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     HomeComponent,
     HeaderComponent,
     NotFoundComponent,
+    FooterComponent,
 
   ],
   imports: [

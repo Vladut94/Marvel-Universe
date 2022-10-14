@@ -1,5 +1,13 @@
 .content-wrapper{
-  margin: 80px 24px;
+  background-image: url("https://wallpapercave.com/wp/wp2436376.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+.content-cards-home {
+  padding: 80px 35px;
 }
 
 mat-grid-tile {
@@ -8,7 +16,7 @@ mat-grid-tile {
   transition: filter 0.35s linear;
   transition: filter 0.35s linear, -webkit-filter 0.35s linear;
   transition: transform 0.35s;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 mat-grid-tile:hover {
@@ -37,4 +45,35 @@ mat-grid-tile:hover {
   background-image: url("https://wallpapercave.com/uwp/uwp1915193.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  color: white;
+}
+
+span {
+  font-family: Consolas;
+  margin: 0 24px;
+}
+
+button {
+  margin: 0 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+button:hover {
+  background-color: beige;
+  border:none;
+  border-radius:10px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  transition: all 0.5s;
 }

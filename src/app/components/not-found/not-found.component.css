@@ -1,0 +1,20 @@
+
+.not-found {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://wallpapercave.com/wp/wp2436482.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-not-found {
+  flex-direction: column;
+  display: flex;
+  color: white;
+  font-size: xxx-large;
+  gap: 40px;
+}
