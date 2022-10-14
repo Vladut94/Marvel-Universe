@@ -12,6 +12,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeroesComponent } from './components/home/heroes/heroes.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     NotFoundComponent,
     FooterComponent,
+    HeroesComponent,
 
   ],
   imports: [
