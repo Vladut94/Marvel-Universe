@@ -13,21 +13,28 @@ mat-grid-tile {
 
 mat-grid-tile:hover {
   transform: scale(1.1);
+  z-index: 1000;
 }
 
-mat-grid-tile:not(:hover) {
-  -webkit-filter: blur(6px);
-  filter: blur(4px);
-}
+/*mat-grid-tile:not(:hover) {*/
+/*  -webkit-filter: blur(2px);*/
+/*  filter: blur(2px);*/
+/*}*/
 
 .save-the-universe {
   background-image: url("https://wallpapercave.com/wp/wp2407334.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .destroy-the-universe {
   background-image: url("https://wallpapercave.com/wp/wp9646474.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .create-your-story {
   background-image: url("https://wallpapercave.com/uwp/uwp1915193.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -10,12 +10,16 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatGridListModule} from '@angular/material/grid-list';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    NotFoundComponent,
+
   ],
   imports: [
     BrowserModule,
