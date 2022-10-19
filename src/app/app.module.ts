@@ -13,6 +13,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeroesComponent } from './components/home/heroes/heroes.component';
+import { ViewHeroesComponent } from './components/home/view-heroes/view-heroes.component';
+import { ViewSuperpowersComponent } from './components/home/view-superpowers/view-superpowers.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { HeroesComponent } from './components/home/heroes/heroes.component';
     NotFoundComponent,
     FooterComponent,
     HeroesComponent,
+    ViewHeroesComponent,
+    ViewSuperpowersComponent,
 
   ],
   imports: [
