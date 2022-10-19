@@ -1,12 +1,37 @@
 <app-header></app-header>
-<mat-grid-list cols="4" rowHeight="100px">
-  <mat-grid-tile
-    *ngFor="let tile of tiles"
-    [colspan]="tile.cols"
-    [rowspan]="tile.rows"
-    [style.background]="tile.color">
-    {{tile.text}}
-  </mat-grid-tile>
-</mat-grid-list>
+<div class="container">
+  <div class="row">
+    <div class="card text-bg-dark col-8">
+      <img src="https://wallpapercave.com/wp/wp3785670.jpg" class="card-img" alt="Save the universe">
+      <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title">Create your team and save the universe</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <div class="card text-bg-dark col-4">
+      <img src="https://wallpapercave.com/wp/wp4330394.jpg" class="card-img" alt="View superheroes">
+      <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title">View all superheroes</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="card text-bg-dark col-4">
+      <img src="https://wallpapercave.com/wp/wp6100205.jpg" class="card-img" alt="View superpowers">
+      <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title">Take a look at superpowers</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <div class="card text-bg-dark col-8">
+      <img src="https://wallpapercave.com/wp/wp3793916.jpg" class="card-img" alt="Edit heroes or superpowers">
+      <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title">Custom the superheroes or superpowers</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <app-footer></app-footer>
 

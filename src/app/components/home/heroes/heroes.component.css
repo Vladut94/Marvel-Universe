@@ -1,0 +1,22 @@
+.container {
+max-width: 100vw;
+  height: 100vh;
+}
+.card {
+  padding: 0;
+  border-radius: 0;
+}
+img {
+  object-fit: cover;
+  height: 100%;
+  /*height: 300px;*/
+}
+.card-img, .card-img-bottom {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+/*.row {*/
+/*  height: 40%;*/
+/*}*/
